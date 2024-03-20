@@ -1,0 +1,294 @@
+/* Home*/
+/* Estilos para o banner */
+.banner {
+    margin: 20px 0;
+    background-color: #606061;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para os CTAs */
+.cta {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.cta a {
+    background-color: #FFCB29;
+    color: #606061;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+    background-color: #ffd64d;
+}
+
+
+/* Formulário de Contato */
+
+/* Estilo para o formulário */
+     /* Estilos gerais */
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+/* Estilos para o formulário */
+#contactForm {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #606061;
+    color: #FFCB29;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm div {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    display: block;
+    font-weight: bold;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm input[type="tel"],
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contactForm textarea {
+    height: 100px;
+}
+
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFCB29;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #daaf1b;
+    color: #fff;
+}
+
+/* Media queries para responsividade */
+@media screen and (max-width: 768px) {
+    #contactForm {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #contactForm {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #contactForm {
+        max-width: 90%;
+    }
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o header */
+header {
+    background-color: #606061;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    width: 300px; /* Largura da imagem */
+    height: 150px; /* Altura automática de acordo com a largura */
+    z-index: 9999; /* Para garantir que a imagem fique acima de outros elementos */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu li {
+    margin-left: 20px;
+    color: #FFCB29;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+    color: #FFCB29;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFCB29;
+    font-size: 16px;
+}
+
+/* Media queries para responsividade */
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 20px;
+        color: #FFCB29;
+    }
+
+    .menu li {
+        margin: 0;
+        margin-bottom: 10px;
+        color: #FFCB29;
+    }
+}
+
+/* Footer */
+
+/* Estilos para o footer */
+footer {
+    background-color: #606061;
+    color: #FFCB29;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Estilos para os links no footer */
+footer a {
+    color: #FFCB29;
+    text-decoration: none;
+    margin: 0 10px;
+}
+  /*Quem Somos*/
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para o conteúdo */
+.content {
+    padding: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+/* Contato */
+
+/* Estilos para o conteúdo */
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+/* Estilos para as informações de contato */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o mapa */
+#map {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+/* Estilos para as redes sociais */
+.social-icons {
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Media queries para responsividade */
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+    #contactForm {
+        padding: 15px;
+    }
+}
