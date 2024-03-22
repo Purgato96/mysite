@@ -8,8 +8,8 @@
 
     <!-- CTAs -->
     <section class="cta">
-        <a href="{{ route('web.blog') }}">Visite nosso Blog</a>
-        <a href="{{ route('web.about-us') }}">Saiba Mais Sobre Nós</a>
-        <a href="{{ route('web.contact') }}">Entre em Contato</a>
+        <a href="{{ route('site.blog') }}">Visite nosso Blog</a>
+        <a href="{{ route('site.about-us') }}">Saiba Mais Sobre Nós</a>
+        <a href="{{ route('site.contact') }}">Entre em Contato</a>
     </section>
 @endsection

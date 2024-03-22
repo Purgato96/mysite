@@ -9,19 +9,19 @@ class UserController extends Controller {
      * Display a listing of the resource.
      */
     public function index() {
-        return view('home');
+        //
     }
 
     public function contact() {
-        return view('contact');
+        //
     }
 
     public function aboutUs() {
-        return view('aboutUs');
+        //
     }
 
     public function blog() {
-        return view('blog');
+        //
     }
 
     /**
