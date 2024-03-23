@@ -14,4 +14,12 @@
         <a href="{{ route('site.case') }}">Estudo de Caso</a>
         <a href="{{ route('site.contact') }}">Contato</a>
     </section>
+
+    <section class="banner">
+        <h1>Nosso</h1>
+        <br/>
+        <section class="cta">
+        <a href="{{ route('web.blog') }}">Blog</a>
+        </section>
+    </section>
 @endsection
