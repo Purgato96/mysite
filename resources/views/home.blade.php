@@ -16,10 +16,6 @@
     </section>
 
     <section class="banner">
-        <h1>Nosso</h1>
-        <br/>
-        <section class="cta">
-        <a href="{{ route('web.blog') }}">Blog</a>
-        </section>
+        <h1>Nosso Blog</h1>
     </section>
 @endsection
