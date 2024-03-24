@@ -3,7 +3,7 @@
 @section('content')
     <!-- Banner -->
     <section class="banner">
-        <h1>Bem-vindo à Nossa Empresa</h1>
+        <h1>Carrosel de imagens com CTA</h1>
     </section>
 
     <!-- CTAs -->
@@ -16,6 +16,18 @@
     </section>
 
     <section class="banner">
-        <h1>Nosso Blog</h1>
+        <h1>Carrossel de Serviços</h1>
     </section>
+
+<section class="banner">
+    <h1>Div com mais informações de serviços</h1>
+</section>
+
+<section class="banner">
+    <h1>Blog com os 3 posts mais recentes</h1>
+</section>
+
+<section class="banner">
+    <h1>Chamada para contato</h1>
+</section>
 @endsection
