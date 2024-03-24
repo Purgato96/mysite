@@ -17,7 +17,7 @@
     }
 </script>
 
-<form action="{{ route('web.store') }}" method="post" id="contactForm">
+<form action="{{ route('site.store') }}" method="post" id="contactForm">
     @csrf
     <h2>Formulário de Contato</h2>
     <div id="contactFormName">

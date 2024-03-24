@@ -1,4 +1,5 @@
 @extends('master')
+@section('title', 'Quem Somos | Purgato Technology')
 @section('content')
     <div class="content">
         <p>A Purgato Technology é uma empresa de tecnologia especializada em desenvolvimento de software e soluções
